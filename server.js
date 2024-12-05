@@ -14,7 +14,7 @@ let todos = [];
 // Routes
 // Get all todos
 // Default route for root endpoint
-pp.get('/', (req, res) => {
+app.get('/', (req, res) => {
     res.send('Welcome to the To-Do List API! Use /todos for managing todos.');
 });
 
